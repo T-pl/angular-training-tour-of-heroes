@@ -1,0 +1,20 @@
+.card-details {
+  border: 1px solid #405061;
+  width: 450px;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-details .title-details {
+  margin-top: 0;
+}
+
+.card-details input {
+  outline: none;
+  border: 1px solid #2c3a41;
+  padding: 5px;
+  border-radius: 4px;
+}

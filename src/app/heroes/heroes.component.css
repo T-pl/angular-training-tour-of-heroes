@@ -6,8 +6,10 @@
   width: 15em;
 }
 
-.heroes li {
+.heroes .list-heroes {
   display: flex;
+  justify-self: center;
+  justify-items: center;
 }
 
 .heroes button {
@@ -21,7 +23,8 @@
   border-radius: 4px;
   display: flex;
   align-items: stretch;
-  height: 1.8em;
+  height: 2.5em;
+  border-style: none;
 }
 
 .heroes button:hover {
@@ -43,6 +46,7 @@
 .heroes button.selected:hover {
   background-color: #505050;
   color: white;
+
 }
 
 .heroes button.selected:active {
@@ -59,6 +63,7 @@
   line-height: 1em;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+
 }
 
 .heroes .name {
